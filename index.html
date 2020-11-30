@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="1">['Ball','Bat','Phone','Teddy','PUBG','Music','Langauge','Memory','Game']</h1>
+    <button onclick="start()">Start</button>
+    <input id="2" type="text" placeholder="Your Best Guess! Example - Apple">
+    <button onclick="submit()" type="submit">Submit</button>
+    <script>
+
+        let a = ['Ball','Bat','Phone','Teddy','PUBG','Music','Langauge','Memory','Game']
+        let c = document.getElementById('1')
+        let d = document.getElementById('2').value
+        let b = Math.floor(Math.random()*9)
+        function start(){
+       
+            if (b==0) {
+                delete a[b]
+        c.innerHTML=a
+       
+
+        }
+            
+           else if (b==1) {
+                delete a[b]
+        c.innerHTML=a
+        
+        }
+            
+           else if (b==2) {
+                delete a[b]
+        c.innerHTML=a
+       
+        }
+            
+           else if (b==3) {delete a[b]
+        c.innerHTML=a
+        
+        }
+            else if (b==4) { delete a[b]
+        c.innerHTML=a
+       
+        }
+            else if (b==5) { delete a[b]
+        c.innerHTML=a
+        
+        }
+           else if (b==6) { delete a[b]
+        c.innerHTML=a
+      
+        }
+          else if (b==7) { delete a[b]
+        c.innerHTML=a
+        
+        }
+            else if (b==8) {
+                delete a[b]
+        c.innerHTML=a
+       
+            }
+            function submit()
+       {
+        if (d=='Ball') {
+            alert('Correct Answer')
+        }
+       
+        else if (d=='Bat') {
+            alert('Correct Answer')
+        }
+       
+       else if (d=='Phone') {
+            alert('Correct Answer')
+        }
+   
+       else if (d=='Teddy') {
+            alert('Correct Answer')
+        }
+      
+        else if (d=='PUBG') {
+            alert('Correct Answer')
+        }
+       else if (d=='Music') {
+            alert('Correct Answer')
+        }
+       
+        else if (d=='Language') {
+            alert('Correct Answer')
+        }
+
+        else if (d=='Memory') {
+            alert('Correct Answer')
+        }
+        else if (d=='Game') {
+            alert('Correct Answer')
+        }
+        else {
+            alert('Wrong Answer')
+        }
+        
+
+       }
+       for (let index = 0; index < array.length; index++) {
+           const element = array[index];
+           
+       }
+    }
+    </script>
+</body>
+</html>
